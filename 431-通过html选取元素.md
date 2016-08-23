@@ -63,7 +63,5 @@ document.getElementByName\('name属性值'\)可以返回DOM树中具有指定nam
  console.log(typeof list);
  console.log(list.length);
 
-
-
 ```
 

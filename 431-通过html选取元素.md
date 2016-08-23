@@ -1,6 +1,6 @@
 ### 通过ID选取元素
 
-document.getElementById\('id'\)可用于在当前DOM树中根据ID选择某一个子元素
+**document.getElementById\('id'\)**可用于在当前DOM树中根据ID选择某一个子元素
 
 ```
 <ul id = "menuList">
@@ -21,7 +21,7 @@ document.getElementById\('id'\)可用于在当前DOM树中根据ID选择某一�
 
 ### 通过标签名选取元素
 
-node.getElementsByTagName\('标签名'\)可以根据标签名返回所有具有指定标签名的元素集合
+**node.getElementsByTagName\('标签名'\)**可以根据标签名返回所有具有指定标签名的元素集合
 
 ```
  <ul>
@@ -46,7 +46,7 @@ node.getElementsByTagName\('标签名'\)可以根据标签名返回所有具有�
 
 ### 通过name属性选取元素
 
-document.getElementByName\('name属性值'\)可以返回DOM树中具有指定name属性值的所有子元素集合
+**document.getElementByName\('name属性值'\)**可以返回DOM树中具有指定name属性值的所有子元素集合
 
 ```
 <form id = 'registerForm'> 

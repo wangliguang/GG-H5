@@ -42,7 +42,6 @@ node.getElementsByTagName\('标签名'\)可以根据标签名返回所有具有�
  console.log(type list);
 
  console.log(list.length);
-
 ```
 
 ### 通过name属性选取元素
@@ -62,6 +61,5 @@ document.getElementByName\('name属性值'\)可以返回DOM树中具有指定nam
 
  console.log(typeof list);
  console.log(list.length);
-
 ```
 

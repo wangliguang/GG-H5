@@ -36,5 +36,5 @@
         * [4.9.1 navigator对象](491-navigator对象.md)
         * [4.9.2 location对象](492-location对象.md)
         * [4.9.3 history对象](493-history对象.md)
-        * 4.9.4 screen对象
+        * [4.9.4 screen对象](494-screen对象.md)
 

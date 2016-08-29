@@ -10,4 +10,7 @@
        var url = location.href;
        console.log(url);
 
- 
+       //更改要显示的页面URL--页面跳转
+       location.href = "http://www.baidu.com";
+
+      

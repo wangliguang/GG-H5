@@ -1,7 +1,7 @@
 # Summary
 
 * [前言](README.md)
-* [四、DOM](chapter1.md)
+* [四. DOM](chapter1.md)
     * [4.1 DOM概述](42-dom概述.md)
         * [4.1.1 DHTML概述](411-dhtml概述.md)
         * [4.1.2 DOM概述](412-dom概述.md)

@@ -34,7 +34,7 @@
         * [4.8.3 定时器](483-定时器.md)
     * [4.9 window常用子对象](49-window常用子对象.md)
         * [4.9.1 navigator对象](491-navigator对象.md)
-        * 4.9.2 location对象
+        * [4.9.2 location对象](492-location对象.md)
         * 4.9.3 history对象
         * 4.9.4 screen对象
 

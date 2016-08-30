@@ -108,4 +108,30 @@
 
 # 取消冒泡与利用冒泡
 
-   
+   - 取消冒泡：当某一事件触发后，如果不想继续向上层冒泡，可在当前事件处理函数结尾取消冒泡
+
+     1. DOM标准
+
+            e.stopPropagation()
+
+     2. IE
+
+            e.cancelBubble = true; 
+
+     3. 示例
+
+            //考虑浏览器兼容问题     
+            function func(e){
+               
+              var obj = e.srcElement || e.target;
+
+              ...
+ 
+              if(e.stopPropagation){
+
+                e.stopPropagation();
+              }else{
+                 e.cancelBubble = true;
+              }
+
+            }//可以解决浏览器兼容问题

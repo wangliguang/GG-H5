@@ -151,3 +151,37 @@
        function func(e){
          var src = e.srcElement || e.target;
        }//通过src获得具体点击的是哪个子元素
+
+
+# 取消事件
+
+  - 通常浏览器在事件传递并处理完后可能会执行与该事件关联的默认动作，例如：
+
+     如果表单中input type 属性是“submit”,点击后会自动提交表单
+
+  - 但事件处理函数过程中发生了错误，会不希望继续执行默认行为时，都可以取消事件或阻止默认行为继续执行
+
+ - 可采用下述方法阻止事件的默认行为
+
+          if(event.preventDefault){
+
+            event.preventDefault(); //DOM
+          }else{
+           event.returnValue = false; //IE
+          }
+
+ - 如果使用HTML绑定事件处理函数，可使用两个return的方式取消事件
+    
+          <form onsubmit = "return valiAll()">
+
+          //取消事件 2个return
+          function valiAll(){
+
+             return true/false;
+
+          }
+          
+
+# 事件坐标
+
+ - 

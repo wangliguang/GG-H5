@@ -77,4 +77,32 @@
 
 # 目标对象与this
 
-  - 
+  - 对于event对象，经常需要获得事件源--目标对象
+
+  - 目标对象：始终保持最初触发事件的节点对象
+ 
+  - this:指代触发事件的当前节点对象，随事件冒泡而改变
+
+  - 示例
+
+        <div onclick = "func(event);">div text</div>
+         
+        //IE浏览器
+
+        function func(e){
+          var src = e.srcElement;
+        }
+
+        //firefox浏览器
+        function func(e){ 
+          var src = e.target;
+        }
+
+      如何写出各浏览器兼容的代码
+
+        //考虑浏览器兼容问题
+        function func(e){
+           var obj = e.srcElement || e.target;
+           alert(obj.nodeName);//DIV
+        }
+

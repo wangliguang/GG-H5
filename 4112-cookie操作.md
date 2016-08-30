@@ -22,21 +22,21 @@
 
 * 可以使用document.cookie获取当前站点可以读取的所有Cookie\(多个Cookie间用；分隔\)
 
-      var cookies = document.cookie;
+  ```
+  var cookies = document.cookie;
 
-      console.log(cookies); //多个Cookie用；分割
+  console.log(cookies); //多个Cookie用；分割
 
-      var arr = arrkies.split(";");
+  var arr = arrkies.split(";");
 
-      for(var i = 0; i<arr.length; i++){
+  for(var i = 0; i<arr.length; i++){
 
-        var cookie = arr[i];//键值对用=分割
-        var cookiePair = cookie.split("=");
-        console.log(cookiePair[0] + "=" + cookiePair[1]);
+    var cookie = arr[i];//键值对用=分割
+    var cookiePair = cookie.split("=");
+    console.log(cookiePair[0] + "=" + cookiePair[1]);
 
-      }
-
-
+  }
+  ```
 注意Cookie键名中可能会被浏览器添加空白字符，需要trim\(\)操作
 
 # cookie的生命周期

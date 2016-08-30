@@ -37,24 +37,22 @@
 
   }
   ```
-注意Cookie键名中可能会被浏览器添加空白字符，需要trim\(\)操作
+
+  注意Cookie键名中可能会被浏览器添加空白字符，需要trim\(\)操作
+
 
 # cookie的生命周期
 
 * 若没有指定exprise属性，创建的Cookie其实只是保存在内存中，浏览器一关闭也就被销毁了
 
 * 可以在保存Cookie时使用expires指定其生命周期
+        
+      document.cookie = “UI的= 7788”； //单会话Cookie
 
-  ```
-  document.cookie = “UI的= 7788”； //单会话Cookie
-  ```
+      var time = new Date().getTime() + 1000*3600*24*30;
 
-  var time = new Date\(\).getTime\(\) + 1000\_3600\_24\*30;
+      var exp = new Date(time);
 
-  var exp = new Date\(time\);
-
-  document.cookie = "uname=tom;expires=" + exp.toGMTString\(\); \/\/30天后失效的Cookie
-
-
+      document.cookie = "uname=tom;expires=" + exp.toGMTString(); //30天后失效的Cookie
 同理可以吧expires设置为一个过去的时间，就可以实现删除Cookie的效果
 

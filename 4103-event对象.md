@@ -106,3 +106,6 @@
            alert(obj.nodeName);//DIV
         }
 
+# 取消冒泡与利用冒泡
+
+   

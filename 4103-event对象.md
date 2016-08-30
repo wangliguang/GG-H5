@@ -184,4 +184,22 @@
 
 # 事件坐标
 
- - 
+ - event对象记录事件发生时的 鼠标位置
+
+   1. 相对于浏览器显示区域坐标位置
+
+         clientlx/clientYlY
+
+   2. 相对于网页左上角坐标位置
+
+       pageX/pageY，IE8不支持
+
+   3. 没滚动时，以上两组值相等
+
+   4. 相对于屏幕坐标位置
+
+        screenX/screenY
+
+   5. 相对于目标元素左上角的坐标位置
+
+       offsetX/offsetY

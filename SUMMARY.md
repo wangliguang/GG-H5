@@ -44,4 +44,9 @@
     * 6.11 Cookie
         * [6.11.1 Cookie概述](4111-cookie概述.md)
         * [6.11.2 Cookie操作](4112-cookie操作.md)
+* [七 jQuery](七-jquery.md)
+    * [7.1 jQuery的初步认识](71-jquery的初步认识.md)
+        * [7.1.1 jQuery介绍](711-jquery.md)
+        * [7.1.2 jQuery的编程步骤](712-jquery的编程步骤.md)
+        * [7.1.3 jQuery对象](713-jquery对象.md)
 

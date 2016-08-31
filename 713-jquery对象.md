@@ -10,3 +10,21 @@
 
  **如果获取的是jQuery对象，那么要在变量前面加上$**
 
+# DOM对象->jQuery对象
+
+ - 使用$()将DOM对象包装起来，就可以转换成jQuery对象
+
+ - 语法
+
+   $(DOM对象)
+
+        function f(){
+
+          var obj = document.getElementById("d1");
+
+          //DOM->jQuery对象
+          var $obj = $(obj);
+
+          $obj.html("hello jQuery");
+
+         }

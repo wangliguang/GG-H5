@@ -89,4 +89,5 @@
         * [7.9.1 T-Query](791-t-query.md)
         * [7.9.2 T-Query选择器](792-t-query选择器.md)
         * [7.9.3 T-Query对象](793-t-query事件.md)
+        * [7.9.4 T-Query方法](794-t-query方法.md)
 

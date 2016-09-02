@@ -90,4 +90,6 @@
         * [7.9.2 T-Query选择器](792-t-query选择器.md)
         * [7.9.3 T-Query对象](793-t-query事件.md)
         * [7.9.4 T-Query方法](794-t-query方法.md)
+        * [7.9.5 T-Query创建元素](795-t-query创建元素.md)
+        * [7.9.6 事件绑定](796-事件绑定.md)
 

@@ -21,5 +21,27 @@
     h:高度
     ```
 
+- 示例
+
+      function initial(){
+
+         var elem=document.getElementById('canvas');
+
+         var canvas=elem.getContext('2d');
+
+         for(var i=0;i<3;i++){
+
+           image=new Image();
+
+           image.src="img/monster3.gif";
+
+           img.onload=function(){
+
+              canvas.drawImage(image,i*50,i*50,150,148);
+           }
+         }
+
+      }
+
 
 

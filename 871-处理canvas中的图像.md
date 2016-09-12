@@ -6,7 +6,7 @@
 
   * drawImage\(image,x,y\)
 
-       image：可以是image元素，video元素，js中的image对象
+        image：可以是image元素，video元素，js中的image对象
 
     ```
      x:起始横坐标

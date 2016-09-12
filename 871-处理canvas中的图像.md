@@ -46,4 +46,36 @@
 
 # 绘制图像
 
-- 所谓
+- 所谓图像平铺就是用按一定比例缩小后的图像将画布填满，实现图像平铺的方式有两种，**一种是前面介绍的drawImage()方法；另一种方法是使用上下文对象的createPattern()方法**
+
+- 语法：canvas.createPattern(image,type)
+
+  - image:要平铺的图像
+  - type:平铺方式
+
+    - no-repeat:不平铺
+    - repeat-x:水平方向平铺
+    - repeat-y:垂直方向平铺
+    - repeat:全方向平铺
+
+- 示例
+
+      function initial(){
+
+         elem=document.getElementById('canvas');
+
+         canvas=elem.getContext('2d');
+
+         var img=new Image();
+
+         img.src="img/monster3.gif";
+
+         var ptrn=canvas.createPattern(img,'repeat');
+
+         canvas.fillStyle=ptrn;
+
+         canvas.fillRect(0,0,400,300);
+
+      }
+
+ ![](/assets/屏幕快照 2016-09-12 下午5.43.36.png)

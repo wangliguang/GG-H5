@@ -111,4 +111,6 @@
     * [8.6 Canvas绘图](86-canvas绘图.md)
         * [8.6.1 Canvas概述](861-canvas概述.md)
         * [8.6.2 Canvas绘图](862-canvas绘图.md)
+    * [8.7 处理Canvas中的图像](87-处理canvas中的图像.md)
+        * [8.7.1 处理Canvas中的图像](871-处理canvas中的图像.md)
 

@@ -25,3 +25,13 @@
  - Two.js的核心是依赖于场景
 
  - 当创建或绘制一个对象(Two.polygon或Two.Group)时，是同时存储并记忆
+
+- 循环动画
+
+ - Two.js具有一个内置的循环动画
+ - Two.js的动画效果可以很简单的实现，也可以与其他动画库配置使用
+ 
+- SVG解释器
+
+  - Two.js具有SVG解释器
+  - Two.js允许开发者或设计者在商业应用中创建SVG,例如使用Adobe LLLustrator创建的SVG元素纳入Two.js的场景中

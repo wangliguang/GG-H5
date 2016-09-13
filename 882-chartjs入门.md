@@ -7,9 +7,9 @@
 
  - 创建canvas元素
 
- - 用于显示Chart图表的容器
+    - 用于显示Chart图表的容器
 
-       <canvas id="myChart" width="400" height="400"></canvas>
+          <canvas id="myChart" width="400" height="400"></canvas>
 
  - 获取Canvas对象
 

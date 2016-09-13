@@ -123,4 +123,7 @@
     * 8.10 Two.js框架
         * [8.10.1 Two.js概述](8101-twojs概述.md)
         * [8.10.2 Two.js入门](8102-twojs入门.md)
+    * [8.11 Geolocation](811-geolocation.md)
+        * [8.11.1 Geolocation](8111-geolocation.md)
+        * [8.11.2 百度地图API](8112-百度地图api.md)
 

@@ -118,6 +118,6 @@
         * [8.8.2 Chart.js入门](882-chartjs入门.md)
         * [8.8.3 Chart.js使用](883-chartjs使用.md)
     * [8.9 SVG](89-svg.md)
-        * [8.9.1 SVG概述](891-svg概述.md)
-        * [8.9.2 SVG元素](892-svg元素.md)
+        * [8.9.1 SVG概述](892-svg元素.md)
+        * [8.9.2 SVG元素](891-svg概述.md)
 

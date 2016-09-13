@@ -114,7 +114,7 @@
     * [8.7 处理Canvas中的图像](87-处理canvas中的图像.md)
         * [8.7.1 处理Canvas中的图像](871-处理canvas中的图像.md)
     * [8.8 Chart.js 框架](88-chartjs-框架.md)
-        * 8.8.1 Chart.js概述
-        * 8.8.2 Chart.js入门
+        * [8.8.1 Chart.js概述](881-chartjs概述.md)
+        * [8.8.2 Chart.js入门](882-chartjs入门.md)
         * 8.8.3 Chart.js使用
 

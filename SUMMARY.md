@@ -116,5 +116,5 @@
     * [8.8 Chart.js 框架](88-chartjs-框架.md)
         * [8.8.1 Chart.js概述](881-chartjs概述.md)
         * [8.8.2 Chart.js入门](882-chartjs入门.md)
-        * 8.8.3 Chart.js使用
+        * [8.8.3 Chart.js使用](883-chartjs使用.md)
 

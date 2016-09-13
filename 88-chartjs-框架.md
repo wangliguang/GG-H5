@@ -30,5 +30,15 @@
    - 极地区域图
    - 环形图
 
+# 如何使用Chart.js框架
 
+ - 在HTML页面中引入chart.js文件
+
+       <script="chart.js"></script>
+
+ - 创建canvas元素
+
+   - 用于显示Chart图表的容器
+
+       <canvas id="">
    

@@ -132,6 +132,6 @@
         * [8.12.3 setDragImage方法](8123-setdragimage方法.md)
     * 8.13 WEB Worker
         * [8.13.1 WEB Worker概述](8131-web-worker概述.md)
-        * 8.13.2 WEB Workers API
+        * [8.13.2 WEB Workers API](8132-web-workers-api.md)
         * 8.13.3 WEB Workers示例
 

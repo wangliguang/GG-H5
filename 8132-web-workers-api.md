@@ -60,5 +60,12 @@
 
        w.postMessage("worker success");
 
+     - 通过postMessage()方法传递消息内容
+
+# 终止WEB Worker
+
+在HTML页面中，通过调用Web worker对象的terminate()方法终止Web Worker
+
+       w.terminate();
       
    

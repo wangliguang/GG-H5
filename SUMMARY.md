@@ -129,5 +129,5 @@
     * [8.12 拖放API](812-拖放api.md)
         * [8.12.1 拖放事件](8121-拖放事件.md)
         * [8.12.2 dataTransfer对象](8122-datatransfer对象.md)
-        * 8.12.3 setDragImage方法
+        * [8.12.3 setDragImage方法](8123-setdragimage方法.md)
 

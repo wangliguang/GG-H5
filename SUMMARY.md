@@ -126,4 +126,8 @@
     * [8.11 Geolocation](811-geolocation.md)
         * [8.11.1 Geolocation](8111-geolocation.md)
         * [8.11.2 百度地图API](8112-百度地图api.md)
+    * 8.12 拖放API
+        * [8.12.1 拖放事件](8121-拖放事件.md)
+        * [8.12.2 dataTransfer对象](8122-datatransfer对象.md)
+        * 8.12.3 setDragImage方法
 

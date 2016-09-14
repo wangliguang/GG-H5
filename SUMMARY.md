@@ -130,4 +130,8 @@
         * [8.12.1 拖放事件](8121-拖放事件.md)
         * [8.12.2 dataTransfer对象](8122-datatransfer对象.md)
         * [8.12.3 setDragImage方法](8123-setdragimage方法.md)
+    * 8.13 WEB Worker
+        * [8.13.1 WEB Worker概述](8131-web-worker概述.md)
+        * 8.13.2 WEB Workers API
+        * 8.13.3 WEB Workers示例
 

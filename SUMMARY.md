@@ -109,7 +109,7 @@
     * [5.2 JavaScript基础语法](52-javascript基础语法.md)
         * [5.2.1 使用JavaScript](521-使用javascript.md)
         * [5.2.2 JavaScript调试](522-javascript调试.md)
-        * 5.2.3 语法规范
+        * [5.2.3 语法规范](523-语法规范.md)
 * [六 DOM](chapter1.md)
     * [6.1 DOM概述](42-dom概述.md)
         * [6.1.1 DHTML概述](411-dhtml概述.md)

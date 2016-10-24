@@ -103,6 +103,13 @@
         * [4.6.1 动画概述](461-动画概述.md)
         * [4.6.2 关键帧](462-动画示例.md)
         * [4.6.3 动画属性](463-动画属性.md)
+* [五 JavaScript](五-javascript.md)
+    * [5.1 JavaScript概述](51-javascript概述.md)
+        * 5.1.1 JavaScript概述
+    * [5.2 JavaScript基础语法](52-javascript基础语法.md)
+        * [5.2.1 使用JavaScript](521-使用javascript.md)
+        * [5.2.2 JavaScript调试](522-javascript调试.md)
+        * 5.2.3 语法规范
 * [六 DOM](chapter1.md)
     * [6.1 DOM概述](42-dom概述.md)
         * [6.1.1 DHTML概述](411-dhtml概述.md)
